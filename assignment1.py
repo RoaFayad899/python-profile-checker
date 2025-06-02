@@ -25,3 +25,4 @@ elif internship_eligibility == True:
 else:
     print("Sorry", name,"! You are not eligible now. Please apply again later.")
 
+# In the Git commits, there are 2 errors: "check" instead of "checking" and "feat: add new file for user eligibility test" instead of "Created new file", I tried to correct them on Git but I could'nt
