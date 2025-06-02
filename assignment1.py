@@ -17,4 +17,11 @@ if graduation_status.lower() != "yes" and graduation_status.lower() != "no":
 scholarship_eligibility = age<25 and gpa>=3.5 and graduation_status=="yes"
 internship_eligibility = age<30 and gpa>=2.5
 
+#Testing the eligibility of the user for a scholarship and for an internship
+if scholarship_eligibility == True:
+    print ("Congatulations,", name,"! You are eligible for a scholarship and an intership, we are looking for your decision!")
+elif internship_eligibility == True:
+    print("Congratulations", name,"! You are eligible for an intership!")  
+else:
+    print("Sorry", name,"! You are not eligible now. Please apply again later.")
 
