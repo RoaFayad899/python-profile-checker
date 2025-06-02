@@ -1,4 +1,4 @@
-#Ask user for informations
+#Asking user for informations
 print("Please enter the following information:")
 name = input("Your name in English: ")
 age = float(input ("Your age:"))
