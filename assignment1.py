@@ -13,6 +13,8 @@ if gpa<0 or gpa>5:
 if graduation_status.lower() != "yes" and graduation_status.lower() != "no":
     graduation_status = input("Please answer wethere you have graduated or not with only yes or no: ")
 
-
+#Setting eligibiliy conditions
+scholarship_eligibility = age<25 and gpa>=3.5 and graduation_status=="yes"
+internship_eligibility = age<30 and gpa>=2.5
 
 
