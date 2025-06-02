@@ -10,7 +10,9 @@ graduation_status = input("Wethere you have graduated or not (just answer with y
 if gpa<0 or gpa>5:
     gpa = float(input("Re-enter your GPA please, it must be between 0 and 5: "))
     
-if graduation_status.lower() != "yes" or graduation_status.lower() != "no":
+if graduation_status.lower() != "yes" and graduation_status.lower() != "no":
     graduation_status = input("Please answer wethere you have graduated or not with only yes or no: ")
+
+
 
 
